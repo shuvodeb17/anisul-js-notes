@@ -28,5 +28,3 @@ console.log(currentSecond);
 var getMiliSecond = date.getMilliseconds();
 console.log(getMiliSecond);
 
-var getMiliSecond = date.getMilliseconds();
-console.log(getMiliSecond);
