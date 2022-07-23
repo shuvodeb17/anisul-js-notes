@@ -21,7 +21,3 @@ function previous() {
         imgTag.src = images[count];
     }
 }
-
-else {
-        imgTag.src = images[count];
-    }
