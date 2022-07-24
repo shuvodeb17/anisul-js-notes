@@ -1,0 +1,9 @@
+.adding{
+    text-align: center;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    color: red;
+    font-size: 3rem;
+    font-family: system-ui;
+}
