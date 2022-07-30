@@ -5,18 +5,19 @@ for (var i = 0; i < 3; i++) {
         playAnimation(text);
 
 
-        
-        
+
+
     });
 };
 
 
+
 // Animation
-function playAnimation(text){
+function playAnimation(text) {
     var selectedBtn = document.querySelector("." + text);
     selectedBtn.classList.add('anim');
 
-    setTimeout(function(){
+    setTimeout(function () {
         selectedBtn.classList.remove('anim');
-    },1000);
+    }, 1000);
 };

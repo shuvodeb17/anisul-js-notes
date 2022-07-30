@@ -12,9 +12,53 @@
     <!-- Change event -->
     <!-- input, text, number, password, email, color, radio, checkbox, search, time, date, datetime, week, month, url, tel, file, select, textarea -->
 
+    <!-- change event -->
     <label for="name"> Name:
-        <input id="inp" type="name">
+        <input id="inp" type="text">
     </label>
+
+
+    <!-- selector -->
+    <label for="email">
+        Email:
+        <input type="text" name="email">
+    </label>
+    <label for="number">
+        number:
+        <input type="text" name="number" class="number-class" id="number-id">
+    </label>
+
+
+    <!-- Checkbox -->
+    <div id="check-box">
+        <label for="web-desinger">
+            <input type="checkbox" name="checkboxes" for="web-desinger" value="Web Desinger"> 
+            Web Designer
+        </label>
+        <label id="lb" for="JavaScript">
+            <input type="checkbox" name="checkboxes" for="JavaScript" value="JavaScript">
+            JavaScript
+        </label>
+    </div>
+
+
+    <!-- Select -->
+    <h2>Depertment</h2>
+    <select name="depertment" id="">
+        <option value="cse">CSE</option>
+        <option value="eee">EEE</option>
+        <option value="llb">LLB</option>
+    </select>
+
+
+
+
+
+
+
+
+
+
 
 
     <script src="app.js"></script>

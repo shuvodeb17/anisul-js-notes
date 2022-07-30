@@ -6,3 +6,4 @@ function add(){
 function remove(){
     heading.classList.remove('adding');
 }
+
