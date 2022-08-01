@@ -62,4 +62,6 @@ select.addEventListener("change", selectFun);
 
 function selectFun(e) {
   console.log(e.target.value);
-};
+}
+
+
