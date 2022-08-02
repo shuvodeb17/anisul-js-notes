@@ -1,0 +1,9 @@
+// FocusEvent object
+
+// ai elements gulu te focus element gula kaj korbe na
+// <br>, <head>, <title>, <html>, <iframe>, <meta>, <param>, <script>, <style>, <base>, <bdo>
+
+// 1. onblur
+// 1. onfocus
+// 1. onfocusin
+// 1. onfocusout

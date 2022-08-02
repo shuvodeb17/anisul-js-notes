@@ -1,0 +1,14 @@
+.focus {
+  background-color: tomato;
+  width: 50%;
+  padding: 20px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}

@@ -12,13 +12,6 @@
 
 // --------------------------------
 
-// keyboard event object
-// 1.keydown - preasing a key, can reapet
-// 2.keypress (may not supported by some browsers)
-// 3.keyup
-// Some properties - key, keycode, code, shiftkey, ctlkey, reapet
-
-// -----------------------------------
 
 var textArea = document.querySelector("textarea");
 textArea.addEventListener("keydown", function (e) {
