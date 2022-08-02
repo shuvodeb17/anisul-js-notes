@@ -11,27 +11,26 @@
 // 6. dragEvent object
 
 // Form
-var form = document.querySelector('form');
-var name12 = form.querySelector('div #name');
-var email = form.querySelector('div #email');
-var password = form.querySelector('div #password');
+var form = document.querySelector("form");
+var name12 = form.querySelector("div #name");
+var email = form.querySelector("div #email");
+var password = form.querySelector("div #password");
 
-form.addEventListener('submit', formHandler);
+form.addEventListener("submit", formHandler);
 
 function formHandler(e) {
-    e.preventDefault();
+  e.preventDefault();
 
-    // Object
-    var userInfo = {
-        Name: name12.value,
-        Email: email.value,
-        Password: password.value,
-    }
-    console.log(userInfo);
+  // Object
+  var userInfo = {
+    Name: name12.value,
+    Email: email.value,
+    Password: password.value,
+  };
+  console.log(userInfo);
 
-    // Submit korer pore user data empty hoye jabe
-    name12.value = '';
-    email.value = '';
-    password.value = '';
-
+  // Submit korer pore user data empty hoye jabe
+  name12.value = "";
+  email.value = "";
+  password.value = "";
 }
