@@ -1,0 +1,4 @@
+Clipboard event object
+01.oncopy
+02.oncut
+03.onpaste
